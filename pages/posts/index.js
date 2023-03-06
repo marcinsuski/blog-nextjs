@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import AllPosts from "../../components/posts/all-posts";
+import { DUMMY_POSTS } from "../index";
+const AllPostsPage = (props) => {
+    return <AllPosts posts={DUMMY_POSTS} />;
+};
 
-const AllPostsPage = () => {
-  return (
-    <div>AllPostsPage</div>
-  )
-}
-
-export default AllPostsPage
+export default AllPostsPage;
