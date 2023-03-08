@@ -12,10 +12,10 @@ const MainNavigation = () => {
             <nav>
                 <ul>
                     <li>
-                        <Link href="/posts">Posty</Link>
+                        <Link href="/posts">Posts</Link>
                     </li>
                     <li>
-                        <Link href="/contact">Kontakt</Link>
+                        <Link href="/contact">Contact</Link>
                     </li>
                 </ul>
             </nav>

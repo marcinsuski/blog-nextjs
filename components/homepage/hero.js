@@ -13,11 +13,10 @@ const Hero = () => {
                     height={300}
                 />
             </div>
-            <h1>Cześć, jestem Marcin.</h1>
+            <h1>Hi, I'm Marcin.</h1>
             <p>
-                Piszę o moim rozwoju jako web developer, w szczególności o
-                JavaScript, Css, React, Next.js i wszystkim co dotyczy
-                frontendu.
+                I write about web development, especially frontend, i.e.
+                JavaScript, Css, React, Next.js.
             </p>
         </section>
     );
