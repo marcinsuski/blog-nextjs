@@ -28,10 +28,11 @@ const PostContent = (props) => {
             if (node.children[0].tagName === "img") {
                 const image = node.children[0];
 
+                console.log(image.properties.src);
                 return (
                     <div className={classes.image}>
                         <Image
-                            src={`/images/posts/${post.slug}/${image.properties.src}`}
+                            src={image.properties.src}
                             alt={image.alt}
                             width={600}
                             height={300}
