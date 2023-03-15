@@ -1,18 +1,20 @@
 .contact {
-    margin: var(--size-8) auto;
+    margin: 120px auto;
     border-radius: 6px;
-    background-color: var(--color-grey-100);
+    background-color: white;
     width: 90%;
     max-width: 50rem;
     padding: var(--size-4);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2);
     font-size: var(--size-6);
+
   }
   
   .contact h1 {
     font-size: var(--size-8);
     margin: var(--size-4) 0;
     text-align: left;
+    color: var(--color-grey-800)
   }
   
   .form label {
@@ -29,7 +31,7 @@
     border-radius: 4px;
     width: 100%;
     border: 1px solid var(--color-grey-400);
-    background-color: var(--color-grey-50);
+    background-color: rgb(244, 244, 255);
     resize: none;
   }
   
@@ -52,17 +54,17 @@
   .form button {
     font: inherit;
     cursor: pointer;
-    background-color: var(--color-primary-700);
-    border: 1px solid var(--color-primary-700);
+    background-color: var(--color-grey-800);
+    border: 1px solid var(--color-grey-700);
     padding: var(--size-2) var(--size-4);
     border-radius: 4px;
-    color: var(--color-primary-50);
+    color: white;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    transition: 200ms ease-out;
   }
   
   .form button:hover {
-    background-color: var(--color-primary-500);
-    border-color: var(--color-primary-500);
+    opacity: 0.7;
   }
   
   @media (min-width: 768px) {
