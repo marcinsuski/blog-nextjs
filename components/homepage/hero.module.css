@@ -6,10 +6,12 @@
       var(--color-grey-800)
     );
     /* padding: var(--size-8) 0; */
+    /* filter:brightness(0.1) */
   }
   
 .wrapper {
   padding: var(--size-8) 0;
+  z-index: 3;
 }
 
   .image {
@@ -21,6 +23,7 @@
     background-color: var(--color-grey-700);
     margin: auto;
     border: 3px solid var(--color-grey-500);
+    
   }
   
   .image img {

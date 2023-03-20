@@ -6,7 +6,11 @@ import { Parallax } from "react-parallax";
 const Hero = () => {
     return (
         <section className={classes.hero}>
-            <Parallax bgImage={"/images/site/bg.jpg"} strength={800}>
+            <Parallax
+                bgImage={"/images/site/background.jpg"}
+                bgImageAlt="background"
+                strength={800}
+            >
                 <div className={classes.wrapper}>
                     <div className={classes.image}>
                         <Image

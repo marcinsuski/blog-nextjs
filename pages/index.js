@@ -13,6 +13,7 @@ const HomePage = (props) => {
                     name="description"
                     content=" I post about programming and web development."
                 />
+
             </Head>
             <Hero />
             <FeaturedPosts posts={props.posts} />
