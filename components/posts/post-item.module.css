@@ -60,7 +60,7 @@
 
 @media (max-width: 768px) {
     .post a {
-        color: var(--color-grey-100);
+        color: #252525;
         display: flex;
         flex-direction: column;
     }
