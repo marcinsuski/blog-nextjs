@@ -33,7 +33,7 @@ File-based routing is a routing system used in Next.js that allows developers to
 
 This makes it easy to create and manage routes in a Next.js application, as developers do not need to define complex routing rules in a separate configuration file. Instead, they can simply create a new file in the *"pages"* directory and the file will automatically be mapped to a new route.
 
-For example, if a developer creates a file called *"about.js""* in the *"pages"* directory, it will be automatically mapped to the *"/about"* route in the application.
+For example, if a developer creates a file called *"about.js"* in the *"pages"* directory, it will be automatically mapped to the *"/about"* route in the application.
 
 Additionally, file-based routing in Next.js supports dynamic routes, which allows developers to create routes with parameters that can be accessed in the page component.
 

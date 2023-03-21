@@ -12,7 +12,7 @@ const ContactPage = () => {
                     content="Send me a message."
                 />
             </Head>
-            <ContactForm />;
+            <ContactForm />
         </Fragment>
     );
 };
