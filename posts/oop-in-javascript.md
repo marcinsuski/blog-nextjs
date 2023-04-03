@@ -3,9 +3,8 @@ title: OOP in JavaScript
 excerpt: OOP is a programming paradigm that focuses on designing software based on real-world objects, encapsulating properties and behaviors.
 image: oop.jpg
 isFeatured: true
-date: '2023-03-20'
+date: "2023-03-20"
 ---
-
 
 JavaScript is a versatile programming language that supports various programming paradigms, including Object-Oriented Programming (OOP). OOP is a programming paradigm that focuses on designing software based on real-world objects, encapsulating properties and behaviors. In this short article, we will explore OOP in JavaScript.
 
@@ -15,14 +14,14 @@ JavaScript introduced classes in ES6, making it possible to define classes as te
 
 ```js
 class Car {
-  constructor(brand, model) {
-    this.brand = brand;
-    this.model = model;
-  }
+    constructor(brand, model) {
+        this.brand = brand;
+        this.model = model;
+    }
 
-  honk() {
-    console.log("Beep beep!");
-  }
+    honk() {
+        console.log("Beep beep!");
+    }
 }
 
 let myCar = new Car("Toyota", "Corolla");
@@ -36,23 +35,23 @@ JavaScript supports inheritance, allowing a subclass to inherit properties and m
 
 ```js
 class Animal {
-  constructor(name) {
-    this.name = name;
-  }
+    constructor(name) {
+        this.name = name;
+    }
 
-  speak() {
-    console.log(`${this.name} makes a noise.`);
-  }
+    speak() {
+        console.log(`${this.name} makes a noise.`);
+    }
 }
 
 class Dog extends Animal {
-  constructor(name) {
-    super(name);
-  }
+    constructor(name) {
+        super(name);
+    }
 
-  speak() {
-    console.log(`${this.name} barks.`);
-  }
+    speak() {
+        console.log(`${this.name} barks.`);
+    }
 }
 
 let myDog = new Dog("Rufus");
@@ -65,21 +64,22 @@ JavaScript provides ways to encapsulate properties and methods, making them priv
 
 ```js
 class BankAccount {
-  #balance = 0; // Private property
+    #balance = 0; // Private property
 
-  deposit(amount) {
-    this.#balance += amount;
-  }
-
-  withdraw(amount) {
-    if (amount <= this.#balance) {
-      this.#balance -= amount;
+    deposit(amount) {
+        this.#balance += amount;
     }
-  }
 
-  get balance() { // Getter method
-    return this.#balance;
-  }
+    withdraw(amount) {
+        if (amount <= this.#balance) {
+            this.#balance -= amount;
+        }
+    }
+
+    get balance() {
+        // Getter method
+        return this.#balance;
+    }
 }
 
 let myAccount = new BankAccount();
@@ -93,5 +93,5 @@ In conclusion, OOP in JavaScript provides a powerful way to design software base
 
 ---
 
-*Author: Marcin Suski*  
-*date: 2023-03-20*
+_Author: Marcin Suski_  
+_date: 2023-03-20_

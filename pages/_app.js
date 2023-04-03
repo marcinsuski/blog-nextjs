@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
                     content="width=device-width, initial-scale=1"
                 />
                 <link rel="shortcut icon" href="/images/site/ico.png" />
-                <meta name="favicon" content="/images/site/ico.png"/>
+                <meta name="favicon" content="/images/site/ico.png" />
             </Head>
             <Component {...pageProps} />
         </Layout>

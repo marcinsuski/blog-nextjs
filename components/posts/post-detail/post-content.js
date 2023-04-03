@@ -17,7 +17,6 @@ const PostContent = (props) => {
     const imagePath = `/images/posts/${post.slug}/${post.image}`;
 
     const customComponents = {
- 
         p(paragraph) {
             const { node } = paragraph;
 

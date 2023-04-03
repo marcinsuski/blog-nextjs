@@ -3,7 +3,7 @@ title: Mastering JavaScript
 excerpt: JavaScript is the most important programming language for web development. You probably don't know it well enough!
 image: mastering-js-thumb.png
 isFeatured: false
-date: '2023-03-15'
+date: "2023-03-15"
 ---
 
 # How to Master JavaScript
@@ -18,12 +18,11 @@ Here is an example of a basic JavaScript code snippet:
 
 ```js
 function addNumbers(num1, num2) {
-  return num1 + num2;
+    return num1 + num2;
 }
 
 var sum = addNumbers(5, 10);
 console.log(sum);
-
 ```
 
 This code defines a function that takes two arguments and returns their sum. It then calls the function with the numbers 5 and 10 and logs the result to the console. This is a simple example, but it illustrates the basic syntax of JavaScript.
@@ -52,5 +51,5 @@ Becoming a master in JavaScript takes time and dedication. Start with the basics
 
 ---
 
-*Author: Marcin Suski*  
-*date: 2023-03-15*
+_Author: Marcin Suski_  
+_date: 2023-03-15_

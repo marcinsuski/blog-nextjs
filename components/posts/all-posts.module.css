@@ -2,16 +2,16 @@
     width: 90%;
     max-width: 60rem;
     margin: 120px auto;
-  }
-  
-  .posts h1 {
+}
+
+.posts h1 {
     font-size: var(--size-8);
     color: var(--color-grey-800);
     text-align: center;
-  }
-  
-  @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
     .posts h1 {
-      font-size: var(--size-16);
+        font-size: var(--size-16);
     }
-  }
+}

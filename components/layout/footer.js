@@ -10,7 +10,7 @@ const Footer = () => {
                 bgImage={"../images/site/background.jpg"}
                 bgImageAlt="background"
                 strength={800}
-                style={{ height: "100%", width: '100%' }}
+                style={{ height: "100%", width: "100%" }}
             >
                 <div className={classes.wrapper}>
                     <nav className={classes.nav}>

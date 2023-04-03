@@ -7,10 +7,7 @@ const ContactPage = () => {
         <Fragment>
             <Head>
                 <title>Contact me</title>
-                <meta
-                    name="description"
-                    content="Send me a message."
-                />
+                <meta name="description" content="Send me a message." />
             </Head>
             <ContactForm />
         </Fragment>
